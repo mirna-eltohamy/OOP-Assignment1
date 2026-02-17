@@ -38,3 +38,39 @@
 //    }
 //}
 #endregion
+
+#region p1q2
+//namespace OOPAssignment1
+//{    class Student
+//    {
+//        public string Name;      // Accessible everywhere
+//        private int Age;         // Accessible only inside this class
+
+//        public void SetAge(int age)
+//        {
+//            Age = age;           // Allowed (inside class)
+//        }
+
+//        public int GetAge()
+//        {
+//            return Age;
+//        }
+//    }
+
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Student s = new Student();
+
+//            s.Name = "Mirna";     // Allowed
+//                                  // s.Age = 20;        // ERROR (private)
+
+//            s.SetAge(20);         // Correct way
+//            Console.WriteLine(s.GetAge());
+//        }
+//    }
+
+//}
+#endregion
+
