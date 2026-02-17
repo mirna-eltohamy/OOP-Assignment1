@@ -102,3 +102,114 @@ using System.Diagnostics.Metrics;
 //and logic that can be used by other applications.
 //Used for Code Reusability, Better Organization, Separation of Concerns, Easier Maintenance.
 #endregion
+
+#region p2
+
+//namespace MovieTicketBookingSystem
+//{
+//    public enum TicketType
+//    {
+//        Standard = 0,
+//        VIP = 1,
+//        IMAX = 2
+//    }
+
+//    public struct Seat
+//    {
+//        public char Row;
+//        public int Number;
+
+//        public Seat(char row, int number)
+//        {
+//            Row = row;
+//            Number = number;
+//        }
+
+//        public override string ToString()
+//        {
+//            return $"{Row}{Number}";
+//        }
+//    }
+
+//    public class Ticket
+//    {
+//        public string MovieName;
+//        public TicketType Type;
+//        public Seat Seat;
+//        private double Price;
+
+//        public Ticket(string movieName, TicketType type, Seat seat, double price)
+//        {
+//            MovieName = movieName;
+//            Type = type;
+//            Seat = seat;
+//            Price = price;
+//        }
+
+//        public Ticket(string movieName)
+//            : this(movieName, TicketType.Standard, new Seat('A', 1), 50)
+//        {
+//        }
+
+//        public double CalcTotal(double taxPercent)
+//        {
+//            return Price + (Price * taxPercent / 100);
+//        }
+//        public void ApplyDiscount(ref double discountAmount)
+//        {
+//            if (discountAmount > 0 && discountAmount <= Price)
+//            {
+//                Price -= discountAmount;
+//                discountAmount = 0;
+//            }
+//        }
+
+//        public void PrintTicket()
+//        {
+//            Console.WriteLine($"Movie    : {MovieName}");
+//            Console.WriteLine($"Type     : {Type}");
+//            Console.WriteLine($"Seat     : {Seat}");
+//            Console.WriteLine($"Price    : {Price:F2}");
+//        }
+//    }
+
+//    class Program
+//    {
+//        static void Main()
+//        {
+//            Console.Write("Enter Movie Name: ");
+//            string movieName = Console.ReadLine();
+
+//            Console.Write("Enter Ticket Type (0 = Standard , 1 = VIP , 2 = IMAX ): ");
+//            TicketType type = (TicketType)int.Parse(Console.ReadLine());
+
+//            Console.Write("Enter Seat Row (A, B, C...): ");
+//            char row = char.Parse(Console.ReadLine());
+
+//            Console.Write("Enter Seat Number: ");
+//            int number = int.Parse(Console.ReadLine());
+
+//            Console.Write("Enter Price: ");
+//            double price = double.Parse(Console.ReadLine());
+
+//            Console.Write("Enter Discount Amount: ");
+//            double discount = double.Parse(Console.ReadLine());
+
+//            Seat seat = new Seat(row, number);
+//            Ticket ticket = new Ticket(movieName, type, seat, price);
+
+//            Console.WriteLine("\n===== Ticket Info =====");
+//            ticket.PrintTicket();
+//            Console.WriteLine($"Total (14% tax) : {ticket.CalcTotal(14):F2}");
+
+//            Console.WriteLine("\n===== After Discount =====");
+//            Console.WriteLine($"Discount Before : {discount:F2}");
+
+//            ticket.ApplyDiscount(ref discount);
+
+//            Console.WriteLine($"Discount After  : {discount:F2}");
+//            ticket.PrintTicket();
+//        }
+//    }
+//}
+#endregion
