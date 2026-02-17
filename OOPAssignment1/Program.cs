@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Diagnostics.Metrics;
 #region p1q1
 //namespace OOPAssignment1
 //{
@@ -94,4 +95,10 @@ using System.ComponentModel;
 //    }
 //}
 
+#endregion
+
+#region p1q4
+//A Class Library is a project that contains reusable classes, methods,
+//and logic that can be used by other applications.
+//Used for Code Reusability, Better Organization, Separation of Concerns, Easier Maintenance.
 #endregion
