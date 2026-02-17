@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 #region p1q1
 //namespace OOPAssignment1
 //{
@@ -74,3 +75,23 @@
 //}
 #endregion
 
+#region p1q3
+//Create a new project - Class Library(.NET) - ex: MathLibrary
+
+//Write Code in Library - ex: namespace MathLibrary {public class calculator{ public int addFunction(int a,int b){return a+b;}}}
+
+//build project
+
+//Use the Library in Another Project
+//ex:
+//using MathLibrary;
+//class Program
+//{
+//    static void Main()
+//    {
+//        Calculator calc = new Calculator();
+//        Console.WriteLine(calc.Add(5, 3));
+//    }
+//}
+
+#endregion
